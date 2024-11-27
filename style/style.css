@@ -101,12 +101,14 @@ body {
     padding: 50px;
   }
 
-  #info p:hover{
+  #info p:hover,
+  #experience p:hover{
     color: #383887;
   }
 
 
-  #info:hover{
+  #info:hover,
+  #experience p:hover{
     border-radius: 20px;
     background-color: #7f7ff950;
     -webkit-border-radius: 20px;
@@ -164,7 +166,7 @@ body {
 #education .p:hover{
     color:#fff;
     border-bottom:2px solid #383887;
-font-weight: 700;
+    font-weight: 700;
 }
 
 #education .edu{
@@ -283,3 +285,43 @@ font-weight: 700;
     }
   }
 
+
+
+  #experience h3{
+    color:#0078ff;
+    font-weight: 700;
+  }
+
+   /* Animation for h3 (left to right) */
+   .animate-left {
+    animation: slideInLeft 1s ease-out;
+  }
+
+  /* Animation for p tags (right to left) */
+  .animate-right {
+    animation: slideInRight 1s ease-out;
+  }
+
+  /* Keyframes for left to right slide */
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Keyframes for right to left slide */
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
