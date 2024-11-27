@@ -19,8 +19,10 @@ body {
     font-weight: bold;
     color: #2c2c6c;
   }
-  .hero-text h1 span {
+  .hero-text h1 span,
+  #info span {
     color: #0078ff;
+    font-weight:700;
   }
   .hero-text p {
     color: #6c757d;
@@ -40,4 +42,244 @@ body {
     border-radius: 50%;
   }
 
+  /* about page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Animation keyframes for sliding down */
+@keyframes slideTopToBottom {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
   
+  
+
+  /* Apply the animation */
+  .animate-top-to-bottom {
+    animation: slideTopToBottom 1s ease-out;
+    opacity: 1;
+  }
+  
+  /* Optional: Styling the header */
+  header.container {
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+
+
+  /* Animation keyframes */
+@keyframes slideLeftToRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animation to the element */
+  .animate-left-to-right {
+    animation: slideLeftToRight 1s ease-out;
+    opacity: 1;
+  }
+  
+.col{
+    padding: 30px;
+}
+
+  #info span{
+    font-size: 30px;
+  }
+  #info{
+    padding: 50px;
+  }
+
+  #info p:hover{
+    color: #383887;
+  }
+
+
+  #info:hover{
+    border-radius: 20px;
+    background-color: #7f7ff950;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Animation keyframes */
+@keyframes slideRightToLeft {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animation to the image container */
+  .animate-right-to-left {
+    animation: slideRightToLeft 1s ease-out;
+    opacity: 1;
+  }
+  
+  
+  #education{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0078ff;
+}
+
+#education i{
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#education p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#education .p:hover{
+    color:#fff;
+    border-bottom:2px solid #383887;
+font-weight: 700;
+}
+
+#education .edu{
+    font-size: 10px;
+}
+
+
+/* Animation keyframes for spinning */
+@keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Apply the round animation */
+  .animate-rotate {
+    animation: rotateAnimation 1s linear;
+    display: inline-block;
+    /*Ensuretheelementstaysinlineforanimation*/:;
+    -webkit-animation: rotateAnimation 1s linear;
+}
+  
+  /* Optional: Styling the section */
+  #education {
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px; /* Rounded edges */
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .hov {
+    margin-top: 10px;
+  }
+  
+  .p, .edu {
+    font-weight: bold;
+  }
+  
+
+
+
+  .skills-section h2 {
+    color:  #007bff;
+  }
+  
+  .card {
+    border: 1px solid  #007bff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(255, 215, 0, 0.5);
+  }
+  
+  .card-body h5 {
+    font-size: 1.1rem;
+    color:  #007bff;
+  }
+
+  .skills-section h2 {
+    color: #007bff;
+  }
+
+  .card {
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(100px); /* Start position */
+    animation: slide-in 1s ease-out forwards;
+  }
+
+  /* Left-to-right animation */
+  .card:nth-child(odd) {
+    animation-name: slide-in-left;
+  }
+
+  /* Right-to-left animation */
+  .card:nth-child(even) {
+    animation-name: slide-in-right;
+  }
+
+  /* Delayed animations for each card */
+  .card:nth-child(1) { animation-delay: 0.3s; }
+  .card:nth-child(2) { animation-delay: 0.6s; }
+  .card:nth-child(3) { animation-delay: 0.9s; }
+  .card:nth-child(4) { animation-delay: 1.2s; }
+  .card:nth-child(5) { animation-delay: 1.5s; }
+
+  /* Keyframes for left-to-right */
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Keyframes for right-to-left */
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
