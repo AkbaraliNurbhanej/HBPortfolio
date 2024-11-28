@@ -88,8 +88,8 @@ body {
     opacity: 1;
   }
   
-.col{
-    padding: 30px;
+#col{
+    padding-right: 5px;
 }
 
   #info span{
@@ -147,8 +147,11 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #0078ff;
-}
+    padding: 20px;
+    border-radius: 10px; /* Rounded edges */
+    text-align: center;
 
+  }
 #education i{
     padding-bottom: 20px;
     font-size: 30px;
@@ -191,13 +194,6 @@ body {
 }
   
   /* Optional: Styling the section */
-  #education {
-    padding: 20px;
-    border: 2px solid #007bff;
-    border-radius: 10px; /* Rounded edges */
-    text-align: center;
-    margin: 20px;
-  }
   
   .hov {
     margin-top: 10px;
@@ -243,6 +239,35 @@ body {
 #git {
   padding: 10px 55px;
   color: #fff !important;
+  width: ;
+}
+
+@media (max-width:399px) {
+  #html {
+    padding: 10px 151.5px;
+    color: #fff !important;
+}
+
+#css {
+  padding: 10px 157px;
+  color: #fff !important;
+}
+
+#js {
+  padding: 10px 134px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 145px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 148px;
+  color: #fff !important;
+}
+
 }
 
 
