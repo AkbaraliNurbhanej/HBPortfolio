@@ -209,40 +209,76 @@ body {
     font-weight: bold;
   }
   
-
-
-
   .skills-section h2 {
     color:  #007bff;
   }
+
+  .card-body{
+    background-color: #2c2c6c;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+}
   
-  .card {
-    border: 1px solid  #007bff;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 15px rgba(255, 215, 0, 0.5);
-  }
-  
+#html{
+  padding: 0 42.5px;
+  color: #fff;
+}
+#css{
+  padding: 0 48px;
+  color: #fff;
+}
+#js{
+  padding: 0 25px;
+  color: #fff;
+}
+#notjs{
+  padding: 0 37px;
+  color: #fff;
+}
+#git{
+  padding: 0 39px;
+  color: #fff;
+}
+
+
   .card-body h5 {
     font-size: 1.1rem;
     color:  #007bff;
-  }
+}
 
   .skills-section h2 {
     color: #007bff;
   }
 
   .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border: 1px solid #007bff;
     border-radius: 10px;
-    opacity: 0; /* Initially hidden */
-    transform: translateX(100px); /* Start position */
-    animation: slide-in 1s ease-out forwards;
-  }
+    opacity: 0;
+    transform: translateX(100px);
+    animation: slide-in 1s ease-out forwards;;
+
+}
+
+.card:hover{
+  border: 2px solid #2c2c6c;
+}
+
+.card img{
+  transition: transform 0.3s ease;
+}
+.card img:hover{
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
 
   /* Left-to-right animation */
   .card:nth-child(odd) {
@@ -342,4 +378,8 @@ body {
 
   #gif{
     /* background-color:#bfe9f7f3 ; */
+  }
+
+  #a .card:hover{
+border: 5px solid #007bff;
   }
