@@ -271,6 +271,35 @@ body {
 }
 
 
+@media (max-width:500px) {
+
+    #html {
+      padding: 10px 178.5px;
+      color: #fff !important;
+  }
+
+#css {
+        padding: 10px 184px;
+        color: #fff !important;
+    }
+
+#js {
+  padding: 10px 161px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 173px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 175px;
+  color: #fff !important;
+}
+
+}
+
   #card-body h5 {
     font-size: 1.1rem;
     color:  #007bff;
