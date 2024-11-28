@@ -644,31 +644,58 @@ color: #fff !important;
 
 }
 
+<<<<<<< HEAD
 @media (max-width:360px) {
   #html {
     padding: 10px 126px;
+=======
+@media (max-width:350px) {
+  #html {
+    padding: 10px 139px;
+>>>>>>> f71038fad45010c9ffa9902db5007238205b512e
     color: #fff !important;
 }
 
 #css {
+<<<<<<< HEAD
   padding: 10px 149px;
+=======
+  padding: 10px 145px;
+>>>>>>> f71038fad45010c9ffa9902db5007238205b512e
   color: #fff !important;
 }
 
 #js {
+<<<<<<< HEAD
   padding: 10px 126px;
+=======
+  padding: 10px 122px;
+>>>>>>> f71038fad45010c9ffa9902db5007238205b512e
   color: #fff !important;
 }
 
 #notjs {
+<<<<<<< HEAD
   padding: 10px 137px;
+=======
+  padding: 10px 133px;
+>>>>>>> f71038fad45010c9ffa9902db5007238205b512e
   color: #fff !important;
 }
 
 #git {
+<<<<<<< HEAD
   padding: 10px 140px;
   color: #fff !important;
 }
+=======
+  padding: 10px 135px;
+  color: #fff !important;
+}
+
+}
+
+>>>>>>> f71038fad45010c9ffa9902db5007238205b512e
 
 }
 
