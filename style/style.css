@@ -297,6 +297,32 @@ body {
   padding: 10px 175px;
   color: #fff !important;
 }
+@media (max-width:450px) {
+
+    #html {
+      padding: 10px 170.5px;
+      color: #fff !important;
+  }
+
+#css {
+        padding: 10px 175px;
+        color: #fff !important;
+    }
+
+#js {
+  padding: 10px 152px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 165px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 166px;
+  color: #fff !important;
+}
 
 }
 
