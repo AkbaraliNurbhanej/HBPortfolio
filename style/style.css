@@ -619,27 +619,27 @@ color: #fff !important;
 
 @media (max-width:400px) {
   #html {
-    padding: 10px 151.5px;
+    padding: 10px 163px;
     color: #fff !important;
 }
 
 #css {
-  padding: 10px 157px;
+  padding: 10px 169px;
   color: #fff !important;
 }
 
 #js {
-  padding: 10px 134px;
+  padding: 10px 146px;
   color: #fff !important;
 }
 
 #notjs {
-  padding: 10px 145px;
+  padding: 10px 157px;
   color: #fff !important;
 }
 
 #git {
-  padding: 10px 148px;
+  padding: 10px 159px;
   color: #fff !important;
 }
 
