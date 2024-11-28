@@ -616,7 +616,7 @@ color: #fff !important;
   color: #fff !important;
 }
 
-@media (max-width:399px) {
+@media (max-width:400px) {
   #html {
     padding: 10px 151.5px;
     color: #fff !important;
@@ -639,6 +639,34 @@ color: #fff !important;
 
 #git {
   padding: 10px 148px;
+  color: #fff !important;
+}
+
+}
+
+@media (max-width:390px) {
+  #html {
+    padding: 10px 156.5px;
+    color: #fff !important;
+}
+
+#css {
+  padding: 10px 163px;
+  color: #fff !important;
+}
+
+#js {
+  padding: 10px 140px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 152px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 154px;
   color: #fff !important;
 }
 
