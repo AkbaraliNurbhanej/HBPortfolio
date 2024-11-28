@@ -213,7 +213,7 @@ body {
     color:  #007bff;
   }
 
-  .card-body{
+  #card-body{
     background-color: #2c2c6c;
     border-radius: 0px 0px 10px 10px;
     -webkit-border-radius: 0px 0px 10px 10px;
@@ -222,29 +222,33 @@ body {
     -o-border-radius: 0px 0px 10px 10px;
 }
   
-#html{
-  padding: 0 42.5px;
-  color: #fff;
+#html {
+  padding: 10px 58.5px;
+  color: #fff !important;
 }
-#css{
-  padding: 0 48px;
-  color: #fff;
+
+#css {
+  padding: 10px 64px;
+  color: #fff !important;
 }
-#js{
-  padding: 0 25px;
-  color: #fff;
+
+#js {
+  padding: 10px 41px;
+  color: #fff !important;
 }
-#notjs{
-  padding: 0 37px;
-  color: #fff;
+
+#notjs {
+  padding: 10px 53px;
+  color: #fff !important;
 }
-#git{
-  padding: 0 39px;
-  color: #fff;
+
+#git {
+  padding: 10px 55px;
+  color: #fff !important;
 }
 
 
-  .card-body h5 {
+  #card-body h5 {
     font-size: 1.1rem;
     color:  #007bff;
 }
