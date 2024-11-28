@@ -325,3 +325,21 @@ body {
       opacity: 1;
     }
   }
+
+
+  /* contant page !!!!!!!!!!!!!!!!!!!!!!!!! */
+
+  .tenor-gif-embed{
+    font-size: 40px;
+  }
+
+  #gif{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:30px ;
+  }
+
+  #gif{
+    /* background-color:#bfe9f7f3 ; */
+  }
