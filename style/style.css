@@ -128,6 +128,47 @@ header.animate-top-to-bottom {
     color: #383887;
   }
 
+ /* Animation styles */
+ .animate-left {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.animate-right {
+  animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Hover effect styles */
+.hov p {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.hov p:hover {
+  transform: scale(1.05);
+  color: #007bff; /* Change to desired hover color */
+}
+
 
   #info:hover,
   #experience p:hover{
