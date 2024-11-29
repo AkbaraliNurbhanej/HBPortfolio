@@ -129,9 +129,20 @@ header.animate-top-to-bottom {
     color: #383887;
   }
 
+  #experience .hov{
+    padding: 30px;
+    background-color:#afafeab3 ;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
+
  /* Animation styles */
  .animate-left {
-  animation: slideInLeft 1s ease-in-out;
+  animation: slideInLeft 1s ease ease-in-out;
+  -webkit-animation: slideInLeft 1s ease ease-in-out;
 }
 
 .animate-right {
@@ -151,9 +162,13 @@ header.animate-top-to-bottom {
 
 @keyframes slideInRight {
   from {
-    transform: translateX(100%);
+    transform: translateX(50%);
     opacity: 0;
-  }
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
   to {
     transform: translateX(0);
     opacity: 1;
