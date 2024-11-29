@@ -919,6 +919,35 @@ color: #fff !important;
 }
 }
 
+
+@media (max-width:435px) {
+
+    #html {
+      padding: 10px 179.5px;
+      color: #fff !important;
+  }
+
+#css {
+        padding: 10px 185px;
+        color: #fff !important;
+    }
+
+#js {
+  padding: 10px 162px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 174px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 176px;
+  color: #fff !important;
+}
+}
+
 @media (max-width:430px) {
 
     #html {
