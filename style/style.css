@@ -569,6 +569,35 @@ color: #fff !important;
 
 }
 
+@media (max-width:770px) {
+
+  #html {
+    padding: 10px 84px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 89px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 66px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 78px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 80px;
+color: #fff !important;
+}
+
+}
+
 
 @media (max-width:765px) {
 
@@ -599,7 +628,7 @@ color: #fff !important;
 
 }
 
-@media (max-width:775px) {
+/* @media (max-width:775px) {
 
   #html {
     padding: 10px 250.5px;
@@ -626,7 +655,7 @@ padding: 10px 248px;
 color: #fff !important;
 }
 
-}
+} */
 
 
 @media (max-width:570px) {
@@ -803,6 +832,36 @@ color: #fff !important;
 }
 
 }
+
+@media (max-width:470px) {
+
+    #html {
+      padding: 10px 197.5px;
+      color: #fff !important;
+  }
+
+#css {
+        padding: 10px 203px;
+        color: #fff !important;
+    }
+
+#js {
+  padding: 10px 180px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 192px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 194px;
+  color: #fff !important;
+}
+
+}
+
 @media (max-width:460px) {
 
     #html {
