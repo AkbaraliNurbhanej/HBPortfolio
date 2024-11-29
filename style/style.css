@@ -3,26 +3,28 @@ body {
   }
 
   header.container {
-    max-width: 100%; /* Width less than 100% */
-    margin: 0 auto; /* Center the header */
-    padding: 0 15px; /* Optional padding */
+  max-width: 100%; /* Width less than 100% */
+  margin: 0 auto; /* Center the header */
+  padding: 0 15px; /* Optional padding */
+}
+
+@keyframes animateTopToBottom {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
   }
-  
-  @keyframes animateTopToBottom {
-    from {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  header.animate-top-to-bottom {
-    animation: animateTopToBottom 1.5s ease-in-out; /* Smooth and slow animation */
-  }
-  
+}
+
+header.animate-top-to-bottom {
+  animation: animateTopToBottom 1.5s ease-in-out;
+   /* Smooth and slow animation */
+  -webkit-animation: animateTopToBottom 1.5s ease-in-out;
+}
+
 
   .logo span{
     font-size: 30px;
@@ -322,6 +324,64 @@ color: #fff !important;
 
 }
 
+@media (max-width:1390px) {
+
+  #html {
+    padding: 10px 58.5px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 64px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 41px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 53px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 55px;
+color: #fff !important;
+}
+
+}
+
+@media (max-width:1200px) {
+
+  #html {
+    padding: 10px 43.5px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 49px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 27px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 38px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 40px;
+color: #fff !important;
+}
+
+}
+
 @media (max-width:1000px) {
 
   #html {
@@ -330,7 +390,7 @@ color: #fff !important;
 }
 
 #css {
-      padding: 10px 89px;
+      padding: 10px 90px;
       color: #fff !important;
   }
 
@@ -340,7 +400,66 @@ color: #fff !important;
 }
 
 #notjs {
-padding: 10px 77px;
+padding: 10px 78px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 80px;
+color: #fff !important;
+}
+
+}
+
+@media (max-width:995px) {
+
+  #html {
+    padding: 10px 43.5px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 50px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 27px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 38px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 40px;
+color: #fff !important;
+}
+
+}
+
+
+@media (max-width:985px) {
+
+  #html {
+    padding: 10px 83.5px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 90px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 67px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 78px;
 color: #fff !important;
 }
 
@@ -355,27 +474,27 @@ color: #fff !important;
 @media (max-width:780px) {
 
   #html {
-    padding: 10px 99px;
+    padding: 10px 84px;
     color: #fff !important;
 }
 
 #css {
-      padding: 10px 104px;
+      padding: 10px 89px;
       color: #fff !important;
   }
 
 #js {
-padding: 10px 81px;
+padding: 10px 66px;
 color: #fff !important;
 }
 
 #notjs {
-padding: 10px 93px;
+padding: 10px 78px;
 color: #fff !important;
 }
 
 #git {
-padding: 10px 95px;
+padding: 10px 80px;
 color: #fff !important;
 }
 
@@ -408,6 +527,66 @@ color: #fff !important;
 }
 
 }
+
+
+@media (max-width:765px) {
+
+  #html {
+    padding: 10px 98.5px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 105px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 81px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 93px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 95px;
+color: #fff !important;
+}
+
+}
+
+@media (max-width:775px) {
+
+  #html {
+    padding: 10px 250.5px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 256px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 233px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 245px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 248px;
+color: #fff !important;
+}
+
+}
+
 
 @media (max-width:570px) {
 
@@ -978,6 +1157,7 @@ color: #fff !important;
 }
 
 @media (max-width:300px) {
+  
   #html {
     padding: 10px 110px;
     color: #fff !important;
