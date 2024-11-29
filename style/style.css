@@ -2,6 +2,28 @@ body {
     font-family: 'Arial', sans-serif;
   }
 
+  header.container {
+    max-width: 100%; /* Width less than 100% */
+    margin: 0 auto; /* Center the header */
+    padding: 0 15px; /* Optional padding */
+  }
+  
+  @keyframes animateTopToBottom {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  header.animate-top-to-bottom {
+    animation: animateTopToBottom 1.5s ease-in-out; /* Smooth and slow animation */
+  }
+  
+
   .logo span{
     font-size: 30px;
   }
@@ -271,6 +293,35 @@ color: #fff !important;
 }
 
 
+@media (max-width:1500px) {
+
+  #html {
+    padding: 10px 73.5px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 79px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 56px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 67px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 70px;
+color: #fff !important;
+}
+
+}
+
 @media (max-width:1000px) {
 
   #html {
@@ -325,6 +376,34 @@ color: #fff !important;
 
 #git {
 padding: 10px 95px;
+color: #fff !important;
+}
+
+}
+@media (max-width:770px) {
+
+  #html {
+    padding: 10px 84px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 89px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 66px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 78px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 80px;
 color: #fff !important;
 }
 
@@ -589,6 +668,35 @@ color: #fff !important;
 }
 
 }
+
+@media (max-width:426px) {
+
+    #html {
+      padding: 10px 176.5px;
+      color: #fff !important;
+  }
+
+#css {
+        padding: 10px 182px;
+        color: #fff !important;
+    }
+
+#js {
+  padding: 10px 159px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 171px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 173px;
+  color: #fff !important;
+}
+
+}
 @media (max-width:410px) {
 
     #html {
@@ -697,6 +805,34 @@ color: #fff !important;
 
 #git {
   padding: 10px 154px;
+  color: #fff !important;
+}
+
+}
+
+@media (max-width:380px) {
+  #html {
+    padding: 10px 151.5px;
+    color: #fff !important;
+}
+
+#css {
+  padding: 10px 158px;
+  color: #fff !important;
+}
+
+#js {
+  padding: 10px 135px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 147px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 149px;
   color: #fff !important;
 }
 
