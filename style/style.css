@@ -703,6 +703,35 @@ color: #fff !important;
 
 }
 
+@media (max-width:560px) {
+
+  #html {
+    padding: 10px 239px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 245px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 222px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 234px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 236px;
+color: #fff !important;
+}
+
+}
+
 @media (max-width:550px) {
 
   #html {
@@ -762,6 +791,35 @@ color: #fff !important;
 
 }
 
+@media (max-width:525px) {
+
+  #html {
+    padding: 10px 226px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 232px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 208px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 220px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 222px;
+color: #fff !important;
+}
+
+}
+
 @media (max-width:520px) {
 
   #html {
@@ -786,6 +844,34 @@ color: #fff !important;
 
 #git {
 padding: 10px 220px;
+color: #fff !important;
+}
+
+}
+@media (max-width:510px) {
+
+  #html {
+    padding: 10px 216px;
+    color: #fff !important;
+}
+
+#css {
+      padding: 10px 222px;
+      color: #fff !important;
+  }
+
+#js {
+padding: 10px 200px;
+color: #fff !important;
+}
+
+#notjs {
+padding: 10px 210px;
+color: #fff !important;
+}
+
+#git {
+padding: 10px 213px;
 color: #fff !important;
 }
 
@@ -815,6 +901,34 @@ color: #fff !important;
 
 #git {
   padding: 10px 210px;
+  color: #fff !important;
+}
+
+}
+@media (max-width:490px) {
+
+    #html {
+      padding: 10px 204.5px;
+      color: #fff !important;
+  }
+
+#css {
+        padding: 10px 210px;
+        color: #fff !important;
+    }
+
+#js {
+  padding: 10px 188px;
+  color: #fff !important;
+}
+
+#notjs {
+  padding: 10px 199px;
+  color: #fff !important;
+}
+
+#git {
+  padding: 10px 201px;
   color: #fff !important;
 }
 
